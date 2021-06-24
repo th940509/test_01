@@ -1,4 +1,4 @@
-<%@page import="boardEx_Test_01.BoardDAO"%>
+<%@page import="step3_00_boardEx_Test.BoardDAO"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -11,7 +11,7 @@
 		request.setCharacterEncoding("utf-8");
 	%>
 	
-	<jsp:useBean id="boardDTO" class="boardEx_Test_01.BoardDTO">
+	<jsp:useBean id="boardDTO" class="step3_00_boardEx_Test.BoardDTO">
 		<jsp:setProperty name="boardDTO" property="*"/>
 	</jsp:useBean>
 	

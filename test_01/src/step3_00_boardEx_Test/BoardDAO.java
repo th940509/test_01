@@ -1,4 +1,4 @@
-package boardEx_Test_01;
+package step3_00_boardEx_Test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
